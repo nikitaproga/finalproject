@@ -18,4 +18,6 @@ https://www.ecosociety.ru/
 4. https://mel.fm/ucheba/fakultativ/314796-easy_ecology
 5. https://ria.ru/20181210/1547721381.html
 
-   
+Используемые сайты:
+https://codepen.io/HenrikFricke/pen/GRNYrXK
+https://bootstraptema.ru/stuff/snippets_bootstrap/blocks/17?ysclid=lxhqysvkfh863617465
