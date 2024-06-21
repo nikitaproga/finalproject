@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/card.css">
+  <link rel="stylesheet" href="../static/css/boot.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>'Главные новости экологии'</title>
+</head>
+<body>
+  <main>
+    {% block content %} 
+    <div class="card">
+      <img src="https://адмдзержинск.рф/upload/iblock/964/964e2b62813c4a3bf86cd99d59143b4f.jpg" class="card__image" alt="brown couch" />
+      <div class="card__content">
+        <time datetime="date" class="card__date">Дата</time>
+        <span class="card__title">Последние новости<span>
+          <li><a href="https://radiosputnik.ru/20240617/yamal-1953525864.html">На реках Ямала пройдут рейды безопасности</a></li>
+          <li><a href="https://ria.ru/20240615/moskva-1953084590.html">Собянин рассказал о сокращении выбросов углекислого газа в Москве</a></li>
+          <li><a href="https://radiosputnik.ru/20240612/1952432972.html">Незеленая энергетика будущего</a></li>
+          <li><a href="https://radiosputnik.ru/20240609/slony-1951749913.html">В Африке на людей нападают слоны, переселенные НПО принца Гарри</a></li>
+          <li><a href="https://radiosputnik.ru/20240605/ekolog-1950770640.html">В Подмосковье отмечают День эколога</a></li>
+      </div>
+    </div>
+    {% endblock %}
+</main>
+</body>
+</html>

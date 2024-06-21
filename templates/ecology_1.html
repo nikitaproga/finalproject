@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/card.css">
+  <link rel="stylesheet" href="../static/css/boot.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>'Экологические советы'</title>
+</head>
+<body>
+  <main>
+    {% block content %} 
+    <div class="card">
+      <img src="https://img.goodfon.ru/original/1366x768/9/87/priroda-gory-leto-svet-solnca.jpg" class="card__image" alt="brown couch" />
+      <div class="card__content">
+        <span class="card__title">Совет<span>
+           <ul>
+            <li>Покупать только то, что действительно необходимо</li>
+            <li>Сдавать отходы на переработку</li>
+            <li>Ходить за покупками с многоразовой сумкой</li>
+            <li>Избегать одноразовой посуды</li>
+            <li>Выключать свет и электроприборы из сети</li>
+            <li>Полностью загружать стиральную и посудомоечную машины</li>
+            <li>При готовке накрывать крышкой кастрюли и сковороды</li>
+            <li>Убавлять мощность отопления, если возможно</li>
+           </ul>     
+      </div>
+    </div>
+    {% endblock %}
+</main>
+</body>
+</html>
