@@ -13,7 +13,7 @@ https://www.ecosociety.ru/
 
 В качестве работы, мы выбрали сайт с "Экологическими советами"
 
-Статьи:
+Используемые статьи:
 1. https://snob.ru/entry/169129/
 2. https://turclub-pik.ru/blog/chto-ya-mogu-sdelat-dlya-ehkologii-30-sposobov/?ysclid=lx7rgzma5e245648654
 3. http://dshi4chel.ru/article/10-prostyih-eko-sovetov
